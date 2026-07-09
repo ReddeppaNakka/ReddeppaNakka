@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="6" viewBox="0 0 900 6" role="img" aria-label="Decorative section divider">
+  <title>Section divider</title>
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#2563EB"/>
+      <stop offset="50%"  stop-color="#8B5CF6"/>
+      <stop offset="75%"  stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        values="-1 0; 1 0; -1 0"
+        dur="7s"
+        repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2.5" width="900" height="1" fill="url(#base)"/>
+  <rect x="0" y="2" width="900" height="2" fill="url(#sweep)" rx="1"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24" role="img" aria-label="Decorative pulse divider">
+  <title>Pulse divider</title>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#2563EB" stop-opacity="0.5"/>
+      <stop offset="50%"  stop-color="#8B5CF6" stop-opacity="0.7"/>
+      <stop offset="80%"  stop-color="#06B6D4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0%"   stop-color="#10B981"/>
+      <stop offset="45%"  stop-color="#06B6D4" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <path d="M0 12 H360 l10 -7 l12 14 l10 -7 H900" fill="none" stroke="url(#line)" stroke-width="1.25" stroke-linejoin="round"/>
+
+  <circle r="7" fill="url(#orb)">
+    <animate attributeName="cx" values="60;840;60" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="12;12;12"   dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="9s" repeatCount="indefinite"/>
+  </circle>
+</svg>

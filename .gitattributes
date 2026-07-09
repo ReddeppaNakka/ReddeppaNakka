@@ -1,0 +1,8 @@
+# Workflow and script files must keep LF endings, or Ubuntu runners
+# choke on the stray carriage returns in `run:` blocks.
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.py    text eol=lf
+*.sh    text eol=lf
+*.svg   text eol=lf
+*.md    text

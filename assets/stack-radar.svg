@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="440" viewBox="0 0 520 440" role="img" aria-labelledby="radarTitle radarDesc">
+  <title id="radarTitle">Technology radar</title>
+  <desc id="radarDesc">Radar chart plotting self-assessed depth across Backend, AI and ML, Frontend, Data, Cloud and DevOps, and Databases.</desc>
+
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#2563EB" stop-opacity="0.45"/>
+      <stop offset="55%"  stop-color="#8B5CF6" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#3B82F6"/>
+      <stop offset="50%"  stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="520" height="440" fill="none"/>
+
+  <!-- grid rings: 6-axis hexagon at 25/50/75/100% -->
+  <g stroke="#8B5CF6" stroke-opacity="0.16" fill="none" stroke-width="1">
+    <polygon points="260,80 415.9,170 415.9,350 260,440 104.1,350 104.1,170" transform="translate(0,-30) scale(1) " opacity="0"/>
+  </g>
+  <g fill="none" stroke="#94A3B8" stroke-opacity="0.18">
+    <polygon points="260,60 433,160 433,360 260,460 87,360 87,160" transform="translate(0,-30)"/>
+    <polygon points="260,110 390,185 390,335 260,410 130,335 130,185" transform="translate(0,-30)"/>
+    <polygon points="260,160 346,210 346,310 260,360 174,310 174,210" transform="translate(0,-30)"/>
+    <polygon points="260,210 303,235 303,285 260,310 217,285 217,235" transform="translate(0,-30)"/>
+  </g>
+  <g stroke="#94A3B8" stroke-opacity="0.14">
+    <line x1="260" y1="230" x2="260" y2="30"/>
+    <line x1="260" y1="230" x2="433" y2="130"/>
+    <line x1="260" y1="230" x2="433" y2="330"/>
+    <line x1="260" y1="230" x2="260" y2="430"/>
+    <line x1="260" y1="230" x2="87"  y2="330"/>
+    <line x1="260" y1="230" x2="87"  y2="130"/>
+  </g>
+
+  <!-- data polygon: Backend .85, AI/ML .80, Frontend .70, Data .70, Cloud/DevOps .55, Databases .65 -->
+  <polygon
+    points="260,60 407,145 381,300 260,390 148,318 147,165"
+    fill="url(#fill)" stroke="url(#stroke)" stroke-width="2" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="6s" repeatCount="indefinite"/>
+  </polygon>
+
+  <g fill="#22D3EE">
+    <circle cx="260" cy="60"  r="3.5"/>
+    <circle cx="407" cy="145" r="3.5"/>
+    <circle cx="381" cy="300" r="3.5"/>
+    <circle cx="260" cy="390" r="3.5"/>
+    <circle cx="148" cy="318" r="3.5"/>
+    <circle cx="147" cy="165" r="3.5"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#94A3B8">
+    <text x="260" y="26"  text-anchor="middle">BACKEND</text>
+    <text x="446" y="126" text-anchor="start">AI / ML</text>
+    <text x="446" y="346" text-anchor="start">FRONTEND</text>
+    <text x="260" y="446" text-anchor="middle">DATA</text>
+    <text x="74"  y="346" text-anchor="end">CLOUD / DEVOPS</text>
+    <text x="74"  y="126" text-anchor="end">DATABASES</text>
+  </g>
+</svg>

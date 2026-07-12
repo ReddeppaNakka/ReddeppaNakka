@@ -340,6 +340,7 @@ Working daily in someone else's codebase, behind review, changes how you write c
 <br/>
 
 <div align="center">
+<a href="https://treckgroq-1.onrender.com/"><img src="https://img.shields.io/badge/demo-live-10B981?style=flat-square&logo=render&logoColor=white&labelColor=0D1117" alt="Live demo available" /></a>
 <img src="https://img.shields.io/badge/status-active-10B981?style=flat-square&labelColor=0D1117" alt="Status: active" />
 <img src="https://img.shields.io/badge/version-v1.0-2563EB?style=flat-square&labelColor=0D1117" alt="Version 1.0" />
 <img src="https://img.shields.io/github/stars/ReddeppaNakka/Treckgroq?style=flat-square&color=8B5CF6&labelColor=0D1117" alt="Stars" />
@@ -388,8 +389,12 @@ An agentic travel application that recommends destinations by reasoning over you
 - The frontend renders match percentages, cost breakdowns, and best-travel-months as first-class UI, not an afterthought.
 
 <div align="center">
+<a href="https://treckgroq-1.onrender.com/"><img src="https://img.shields.io/badge/LIVE_DEMO-0D1117?style=for-the-badge&logo=render&logoColor=10B981" alt="Live demo" /></a>
+&nbsp;
 <a href="https://github.com/ReddeppaNakka/Treckgroq"><img src="https://img.shields.io/badge/VIEW_REPOSITORY-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="View repository" /></a>
 </div>
+
+> **Note on the demo:** it's hosted on Render's free tier, which sleeps after inactivity — the first request may take 30–60 seconds to wake the service, then it's fast.
 
 </details>
 
@@ -830,7 +835,7 @@ Curious about what happens when agent state outgrows a single request.
 
 **Building**
 
-Extending **Orvix** with topic clustering, and giving **Atlas** a public deployment so it stops being a `localhost` demo.
+Extending **Orvix** with topic clustering, and polishing **[Atlas](https://treckgroq-1.onrender.com/)** — now live on Render — ahead of a wider launch.
 
 </td>
 </tr>

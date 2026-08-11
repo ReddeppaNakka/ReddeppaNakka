@@ -231,11 +231,9 @@ I care about fundamentals over frameworks, and about shipping something someone 
 - **Created** [`ReddeppaNakka/JobGenie`](https://github.com/ReddeppaNakka/JobGenie) <sub>10 Aug 2026</sub>
 - **Pushed to** [`Munidhar05/Task-Manager1`](https://github.com/Munidhar05/Task-Manager1) <sub>`collaboration`</sub> <sub>06 Aug 2026</sub>
 - **Pushed to** [`ReddeppaNakka/Orvix`](https://github.com/ReddeppaNakka/Orvix) <sub>05 Aug 2026</sub>
-- **Starred** [`ReddeppaNakka/Treckgroq`](https://github.com/ReddeppaNakka/Treckgroq) <sub>12 Jul 2026</sub>
-- **Pushed to** [`ReddeppaNakka/ReddeppaNakka`](https://github.com/ReddeppaNakka/ReddeppaNakka) <sub>12 Jul 2026</sub>
 <!-- RECENT_ACTIVITY:end -->
 
-<sub>Last refreshed: <!-- LAST_UPDATED:start -->10 Aug 2026, 14:35 UTC<!-- LAST_UPDATED:end --></sub>
+<sub>Last refreshed: <!-- LAST_UPDATED:start -->11 Aug 2026, 14:35 UTC<!-- LAST_UPDATED:end --></sub>
 
 </details>
 
